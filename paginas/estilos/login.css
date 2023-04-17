@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+:root {
+   --cor00:#1E212B;
+   --cor01:#00ffe4;
+   --cor02:#00d6c1;
+}
+
+* {
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+html, body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+}
+
+body {
+   background: black url("/projeto-combo/img/stream-g.jpg") no-repeat;
+   background-size: cover;
+}
+
+section {
+   background: var(--cor00);
+   margin-top: 30px;
+   height: 400px;
+   width: 75%;
+   padding: 20px; 
+   border-radius: 8px;
+   color: white;   
+   text-align: center; 
+}
+
+img {
+   width: 250px;
+}
+
+p {
+   font-size: small;
+   padding: 20px 0px;
+}
+
+input {
+   width: 100%;
+   background-color: transparent;
+   margin-bottom: 5px;
+   padding: 0px 5px;
+   border: 0px;
+   border-bottom: 2px solid var(--cor01);
+}
+
+.campo {
+   text-align: left;
+   padding: 5px;
+}
+
+#join {
+   width: 100%;
+   margin-top: 30px;
+   background-color: var(--cor01);
+   color: white;
+   padding: 8px;
+   border: 2px solid transparent;
+   border-radius: 8px;
+   font-weight: bold;
+}
+
+#join:hover {
+   background-color: var(--cor02);
+   border: 2px solid rgba(0, 0, 0, 0.055);
+}
+
+a {
+   color: white;
+   text-decoration: none;
+   font-size: small;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
